@@ -39,6 +39,7 @@ export default createGlobalStyle`
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     transition: 0.2s;
+    margin-top: 10px;
     :hover {
       background: ${primaryColorHover};
     }
