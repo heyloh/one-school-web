@@ -13,15 +13,12 @@ function Login() {
         dolore repellendus, consectetur reiciendis minus ea, laudantium dolorem
         maxime illo.
       </p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-      <ul>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem, ipsum dolor.</li>
-        <li>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
-          possimus.
-        </li>
-      </ul>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit
+        assumenda numquam in nam maiores enim suscipit dolorem pariatur
+        asperiores iste? Iusto quia eligendi praesentium quos perspiciatis,
+        totam amet nam magnam?
+      </p>
       <button type="button">Enviar</button>
     </Container>
   );
