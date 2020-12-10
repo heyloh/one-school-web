@@ -1,0 +1,17 @@
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+
+/* Pages */
+import Login from '../pages/Login';
+import Page404 from '../pages/Page404';
+
+function Routes() {
+  return (
+    <Switch>
+      <Route path="/" component={Login} exact />
+      <Route path="*" component={Page404} />
+    </Switch>
+  );
+}
+
+export default Routes;
