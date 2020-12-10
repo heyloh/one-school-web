@@ -7,11 +7,11 @@ export const Nav = styled.nav`
   padding: 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 
   a {
     color: #fff;
-    margin: 0 50px 0;
+    margin: 0 20px 0;
     font-weight: bold;
     text-transform: uppercase;
     opacity: 0.75;
@@ -19,5 +19,9 @@ export const Nav = styled.nav`
     :hover {
       opacity: 1;
     }
+  }
+
+  img {
+    max-width: 130px;
   }
 `;
