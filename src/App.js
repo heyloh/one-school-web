@@ -1,7 +1,8 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './routes';
 
 /* Components */
-import Login from './pages/Login';
 import Header from './components/Header';
 
 /* Styles */
@@ -9,11 +10,11 @@ import GlobalStyles from './styles/GlobalStyles';
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      <Login />
+      <Routes />
       <GlobalStyles />
-    </>
+    </BrowserRouter>
   );
 }
 
