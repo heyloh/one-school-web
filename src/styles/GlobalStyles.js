@@ -47,6 +47,11 @@ export default createGlobalStyle`
 
   a {
     text-decoration: none;
+    color: ${primaryColor};
+    transition: 0.2s;
+    :hover {
+      color:${primaryColorHover};
+    }
   }
 
   ul {
@@ -61,4 +66,7 @@ export const Container = styled.section`
   border-radius: 5px;
   margin: 30px auto;
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
