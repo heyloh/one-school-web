@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaHome, FaSignInAlt, FaUserAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 import logo from '../../images/logo.svg';
 
@@ -10,15 +11,15 @@ function Header() {
     <Nav>
       <img src={logo} alt="schoolapp" />
       <div>
-        <a href="/">
+        <Link to="/">
           <FaHome size={20} color="#FFF" />
-        </a>
-        <a href="/">
+        </Link>
+        <Link to="/">
           <FaUserAlt size={20} color="#FFF" />
-        </a>
-        <a href="/">
+        </Link>
+        <Link to="/">
           <FaSignInAlt size={20} color="#FFF" />
-        </a>
+        </Link>
       </div>
     </Nav>
   );
