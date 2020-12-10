@@ -1,4 +1,4 @@
-# 👩‍🏫 Web application for one school API
+# 👩‍🏫 Web application for schoolapi
 > 🚧 Under development 🚧
 
 ## 🛠️ Technologies
