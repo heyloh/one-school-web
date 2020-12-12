@@ -1,5 +1,5 @@
 # 👩‍🏫 Web application for schoolapi
-> 🚧 Under development 🚧
+🚧 Under development 🚧
 
 ## 🛠️ Technologies
 The following tools are being used on the development:
@@ -10,7 +10,12 @@ The following tools are being used on the development:
 - Commitizen
 - Eslint
 - Prettier
-> See package.json for more details
+> See package.json for more details.
 
-## Features
--
+## ✔️ Features
+- [x] 404 not found page
+- [ ] SignIn page
+- [ ] SignUp page
+
+---
+Made with ❤️ by Lohana Torres.
