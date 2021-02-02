@@ -9,7 +9,9 @@ import { Nav } from './styled';
 function Header() {
   return (
     <Nav>
-      <img src={logo} alt="schoolapp" />
+      <Link to="/">
+        <img src={logo} alt="schoolapp" />
+      </Link>
       <div>
         <Link to="/">
           <FaHome size={20} color="#FFF" />
