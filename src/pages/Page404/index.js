@@ -6,8 +6,8 @@ function Page404() {
   return (
     <Container>
       <h1>404 PAGE NOT FOUND</h1>
-      <p>Hey, what are you doing here?</p>
-      <p>This page doesn&apos;t exist. Go back!</p>
+      <p>Hey, o que você está fazendo aqui?</p>
+      <p>Essa página não existe. Vá embora!</p>
     </Container>
   );
 }
