@@ -1,5 +1,8 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
+
+/* Routes */
+import MyRoute from './MyRoute';
 
 /* Pages */
 import Login from '../pages/Login';
@@ -8,8 +11,8 @@ import Page404 from '../pages/Page404';
 function Routes() {
   return (
     <Switch>
-      <Route path="/" component={Login} exact />
-      <Route path="*" component={Page404} />
+      <MyRoute path="/" component={Login} exact />
+      <MyRoute path="*" component={Page404} />
     </Switch>
   );
 }
