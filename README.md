@@ -19,6 +19,10 @@ The following tools are being used on the development:
 ## ✔️ Features
 
 - [x] 404 not found page
+- [x] Configure history
+- [x] Configure React Toastify
+- [x] Configure axios
+- [ ] Configure Redux
 - [ ] SignIn page
 - [ ] SignUp page
 
