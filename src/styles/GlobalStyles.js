@@ -1,9 +1,14 @@
 import styled, { createGlobalStyle } from 'styled-components';
+
 import {
   primaryColor,
   primaryDarkColor,
   primaryColorHover,
+  errorColor,
+  successColor,
 } from '../config/colors';
+
+import 'react-toastify/dist/ReactToastify.css';
 
 export default createGlobalStyle`
   * {
@@ -56,6 +61,14 @@ export default createGlobalStyle`
 
   ul {
     list-style: none;
+  }
+
+  body .Toastfy .Toastfy__toast-container .Toastify__toast--success {
+    background: ${successColor};
+  }
+
+  body .Toastfy .Toastfy__toast-container .Toastify__toast--error {
+    background: ${errorColor};
   }
 `;
 
