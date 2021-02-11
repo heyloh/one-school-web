@@ -1,7 +1,7 @@
 import React from 'react';
 
+/* Styles */
 import { Container } from '../../styles/GlobalStyles';
-
 import { Title } from './styled';
 
 function Login() {
